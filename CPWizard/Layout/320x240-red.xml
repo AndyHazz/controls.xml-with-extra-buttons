@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Layout>
+  <Background>320x240-black.png</Background>
+  <LayoutSub />
+  <ShowMiniInfo>False</ShowMiniInfo>
+  <Images>
+    <Image Name="[IMAGE_TITLE]" X="13" Y="15" Width="160" Height="64" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="" />
+    <Image Name="T3ButtonRedSide.png" X="40" Y="113" Width="64" Height="52" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="[JOYCODE_1_BUTTON1]" />
+    <Image Name="T3ButtonRedSide.png" X="112" Y="89" Width="64" Height="52" Sizeable="True" AlphaFade="True" AlphaValue="10" LabelLink="[JOYCODE_1_BUTTON2]" />
+    <Image Name="T3ButtonRedSide.png" X="184" Y="65" Width="64" Height="52" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="[JOYCODE_1_BUTTON3]" />
+    <Image Name="T3ButtonRedSide.png" X="80" Y="169" Width="64" Height="52" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="[JOYCODE_1_BUTTON4]" />
+    <Image Name="T3ButtonRedSide.png" X="152" Y="145" Width="64" Height="52" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="[JOYCODE_1_BUTTON5]" />
+    <Image Name="T3ButtonRedSide.png" X="224" Y="121" Width="64" Height="52" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="[JOYCODE_1_BUTTON6]" />
+    <Image Name="New Image" X="329" Y="197" Width="32" Height="32" Sizeable="False" AlphaFade="True" AlphaValue="10" LabelLink="" />
+  </Images>
+  <ColorImages Enabled="False">
+    <ColorImage Name="Black" Image="T4ButtonBlack.png" />
+    <ColorImage Name="White" Image="T4ButtonWhite.png" />
+    <ColorImage Name="Red" Image="T4ButtonRed.png" />
+    <ColorImage Name="Yellow" Image="T4ButtonYellow.png" />
+    <ColorImage Name="Orange" Image="T4ButtonOrange.png" />
+    <ColorImage Name="Lime" Image="T4ButtonLime.png" />
+    <ColorImage Name="Green" Image="T4ButtonGreen.png" />
+    <ColorImage Name="Cyan" Image="T4ButtonCyan.png" />
+    <ColorImage Name="Blue" Image="T4ButtonBlue.png" />
+    <ColorImage Name="Purple" Image="T4ButtonPurple.png" />
+    <ColorImage Name="Violet" Image="T4ButtonViolet.png" />
+    <ColorImage Name="Magenta" Image="T4ButtonMagenta.png" />
+    <ColorImage Name="Brown" Image="T4ButtonBrown.png" />
+  </ColorImages>
+  <Labels>
+    <Label Name="[MISC_YEAR]" Group="" X="190" Y="22" Width="119" Height="24" Sizeable="False" Arrow="False" Spot="False">
+      <Font Name="Bauhaus 93" Size="14.25" FontStyle="Regular" Color="White" />
+      <Text Align="Right" Style="Outline" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_YEAR]" />
+      </Codes>
+    </Label>
+    <Label Name="[JOYCODE_1_BUTTON1]" Group="" X="1" Y="117" Width="145" Height="23" Sizeable="False" Arrow="False" Spot="False">
+      <Font Name="Gobold Thin Light" Size="12" FontStyle="Regular" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Key Code" Value="[JOYCODE_1_BUTTON1]" />
+      </Codes>
+    </Label>
+    <Label Name="[JOYCODE_1_BUTTON2]" Group="" X="73" Y="93" Width="145" Height="23" Sizeable="False" Arrow="False" Spot="False">
+      <Font Name="Gobold Thin Light" Size="12" FontStyle="Regular" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Joystick Code" Value="[JOYCODE_1_BUTTON2]" />
+      </Codes>
+    </Label>
+    <Label Name="[JOYCODE_1_BUTTON3]" Group="" X="144" Y="69" Width="145" Height="23" Sizeable="False" Arrow="False" Spot="False">
+      <Font Name="Gobold Thin Light" Size="12" FontStyle="Regular" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Joystick Code" Value="[JOYCODE_1_BUTTON3]" />
+      </Codes>
+    </Label>
+    <Label Name="[JOYCODE_1_BUTTON4]" Group="" X="41" Y="173" Width="145" Height="23" Sizeable="False" Arrow="False" Spot="False">
+      <Font Name="Gobold Thin Light" Size="12" FontStyle="Regular" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Joystick Code" Value="[JOYCODE_1_BUTTON4]" />
+      </Codes>
+    </Label>
+    <Label Name="[JOYCODE_1_BUTTON5]" Group="" X="114" Y="149" Width="145" Height="23" Sizeable="False" Arrow="False" Spot="False">
+      <Font Name="Gobold Thin Light" Size="12" FontStyle="Regular" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Joystick Code" Value="[JOYCODE_1_BUTTON5]" />
+      </Codes>
+    </Label>
+    <Label Name="[JOYCODE_1_BUTTON6]" Group="" X="185" Y="125" Width="145" Height="23" Sizeable="False" Arrow="False" Spot="False">
+      <Font Name="Gobold Thin Light" Size="12" FontStyle="Regular" Color="White" />
+      <Text Align="Center" Style="Outline" />
+      <Codes>
+        <Code Type="Joystick Code" Value="[JOYCODE_1_BUTTON6]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_MANUFACTURER]" Group="" X="205" Y="8" Width="102" Height="16" Sizeable="False" Arrow="False" Spot="False">
+      <Font Name="Gobold Thin Light" Size="8.25" FontStyle="Regular" Color="White" />
+      <Text Align="Right" Style="Shadow" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_MANUFACTURER]" />
+      </Codes>
+    </Label>
+    <Label Name="[MISC_GAME_NAME]" Group="" X="217" Y="210" Width="89" Height="16" Sizeable="False" Arrow="False" Spot="False">
+      <Font Name="Gobold Thin Light" Size="8.25" FontStyle="Regular" Color="White" />
+      <Text Align="Right" Style="Shadow" />
+      <Codes>
+        <Code Type="Misc Code" Value="[MISC_GAME_NAME]" />
+      </Codes>
+    </Label>
+  </Labels>
+</Layout>
