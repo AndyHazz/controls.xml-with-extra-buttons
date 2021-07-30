@@ -7,3 +7,7 @@ The controls.xml file combines arcade button descriptions from -
 Can be used in CPWizard to generate button images, by replacing the default controls.xml file in the Data dir, you may need to go into options > Mame paths and re-select a mame.exe to force it to regenerate the larger xml files used by CPWizard to generate buttons.
 
 ListInfo.xml is the (much larger and more detailed) file CPWizard generates from various sources, after being fed with my Controls.xml file - might be useful one day to have that without needing to go through CPWizard to generate it ...
+
+Ready made button images for 320x240 displays can be found here:
+- Blue/Green/Yellow buttons to match my personal cabinet - https://github.com/AndyHazz/AdvanceMame-button-images
+- Red buttons, generic for anyone to use, included as part of https://github.com/AndyHazz/PinHP-assets
